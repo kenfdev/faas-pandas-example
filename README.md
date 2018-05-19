@@ -10,7 +10,7 @@ By adding a `ARG` in the `Dockerfile` and letting one inject additional packages
 
 ```
 # build with additional packages required by pandas
-faas-cli build --build-arg 'ADDITIONAL_PACKAGE=make automake gcc g++ subversionpython3-dev'
+faas-cli build --build-arg 'ADDITIONAL_PACKAGE=make automake gcc g++ subversion python3-dev'
 
 # deploy
 faas-cli deploy
